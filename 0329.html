@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <body>
+      <div id="root"></div>
+      <script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
+      <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script>
+      <script type="module">
+      const headingElement = React.createElement(
+      "h1",
+      { className: "heading" },
+      "안녕하세요, 어떤 분야에서 최고가 되고픈 G.O.A.T 이재석입니다."
+      );
+      const rootElement = document.getElementById("root");
+      ReactDOM.render(headingElement, rootElement);
+      console.log(headingElement);
+      </script>
+      </body>
+  </head>
+      
+</html>
